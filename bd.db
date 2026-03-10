@@ -1,0 +1,11 @@
+
+create table exemple1(
+	id serial primary key,
+	first_name varchar(50),
+	last_name varchar(50),
+	age int
+);
+
+insert into public.exemple1 (
+	first_name , last_name , age)
+	values ('Paulo', 'Filho' , 32);
